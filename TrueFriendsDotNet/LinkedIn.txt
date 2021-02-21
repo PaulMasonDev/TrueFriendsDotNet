@@ -1,0 +1,32 @@
+﻿.NET True Friends Rebuild
+#1: How do controllers in MVC work/Controller Basics?
+You can think of a controller as a file that contains directions for where to send the user on your website depending upon what is in the endpoint. In MERN, this would look like the individual files in your routes directory on the backend with multiple app.get, app.post, etc. requests.
+
+Within each controller file (back to .NET), you will declare a class with the naming convention of 'ControllerName' followed by 'Controller'. So a 'Friends' controller would be named 'FriendsController' and so forth.
+
+Within this class are your 'IActionResult's, which are named by what you are putting in the endpoint. So if I wanted to send the user to '/Friends/AddFriend' my IActionResult would be named 'AddFriend'.
+
+There's a bit more to it, but I hope this helps. Until next time!
+
+Happy Coding!
+
+.NET True Friends Rebuild
+#2: What is MVC? What are Areas? What are they used for?
+
+(MVC, Think --> Model is kind of like a Schema in Mongoose, View is a User Facing Page that uses the model, and Controller is Routing--see post #1).
+
+The use of "Areas" is a folder structure where you will place Controllers and Views for each Area you create.
+I've chosen to place all of my models in a separate project within the solution to keep things tidy.
+
+To start, I will have a "User" area where users will access their list of friends with occassions, and gift ideas.
+Later on for example, I could add an "Admin" area, where I can place all the controllers and views for Admin related stuff.
+
+Related to my previous post, the endpoint to access this area might look like "Users/Friends/AddFriend", so areas are used in the endpoint system of .NET
+in conjuction with the appropriate Controller and IActionResults.
+
+I am liking the .NET file structure conventions so far, as the different pieces of your project
+are easy to keep track of.
+
+Until Next Time! Happy Coding!
+
+#merntodotnet #learning

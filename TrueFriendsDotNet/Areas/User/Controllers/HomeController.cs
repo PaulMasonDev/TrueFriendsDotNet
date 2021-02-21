@@ -7,8 +7,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using TrueFriendsDotNet.Models.ViewModels;
 
-namespace TrueFriendsDotNet.Controllers
+namespace TrueFriendsDotNet.Areas.User.Controllers
 {
+    [Area("User")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
