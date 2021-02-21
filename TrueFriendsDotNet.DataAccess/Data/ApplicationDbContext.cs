@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace TrueFriendsDotNet.Data
+namespace TrueFriendsDotNet.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

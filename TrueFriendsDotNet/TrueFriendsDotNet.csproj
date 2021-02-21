@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>aspnet-TrueFriendsDotNet-4821B895-999F-44FD-9418-9D996CFA3317</UserSecretsId>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+	<AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +14,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrueFriendsDotNet.DataAccess\TrueFriendsDotNet.DataAccess.csproj" />
+    <ProjectReference Include="..\TrueFriendsDotNet.Models\TrueFriendsDotNet.Models.csproj" />
+    <ProjectReference Include="..\TrueFriendsDotNet.Utility\TrueFriendsDotNet.Utility.csproj" />
   </ItemGroup>
 
 </Project>

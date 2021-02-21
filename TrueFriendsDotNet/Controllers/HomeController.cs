@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using TrueFriendsDotNet.Models;
+using TrueFriendsDotNet.Models.ViewModels;
 
 namespace TrueFriendsDotNet.Controllers
 {

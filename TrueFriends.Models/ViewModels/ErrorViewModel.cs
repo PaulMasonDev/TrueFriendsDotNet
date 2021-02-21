@@ -1,6 +1,6 @@
 using System;
 
-namespace TrueFriendsDotNet.Models
+namespace TrueFriendsDotNet.Models.ViewModels
 {
     public class ErrorViewModel
     {
