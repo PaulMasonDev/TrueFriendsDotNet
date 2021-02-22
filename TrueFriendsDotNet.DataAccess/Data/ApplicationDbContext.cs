@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using TrueFriendsDotNet.Models;
 
 namespace TrueFriendsDotNet.DataAccess.Data
 {
@@ -10,7 +11,8 @@ namespace TrueFriendsDotNet.DataAccess.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
-        {
+        { 
         }
+        public DbSet<Friend> Friends { get; set; }
     }
 }
