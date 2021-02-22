@@ -10,7 +10,7 @@ namespace TrueFriendsDotNet.Models
     public class Friend
     {
         [Key]
-        public int FriendId { get; set; }
+        public int Id { get; set; }
         [Display(Name="Friend Name")]
         [Required]
         [MaxLength(50)]
