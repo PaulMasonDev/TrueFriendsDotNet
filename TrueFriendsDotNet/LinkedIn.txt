@@ -69,10 +69,18 @@ Until next time! Happy Coding!
 .NET True Friends Rebuild
 #5: Repository Pattern
 
--Overview of Repository Pattern, why it is needed, modularize common methods that can be used for common tasks
--Using an example of writing CRUD for multiple models and how repetitive it can get
+So the repository pattern is a way of keeping the logic for accessing data in a centralized location that many different
+pieces of your project can access.  CRUD operations such as Create and Delete would most often be found in a Repository.
+
+Thinking to where I have seen a similar idea in MERN is in my use of Redux in React.  You create Redux actions which are then
+called from whichever component needs to use the specific method.  So instead of writing the same code multiple times in different places,
+you simply define the function once, and call it whenever you need it.  With C#, you will be able to declare classes that act as a repository,
+all having different methods that your app/project may need.
+
+Repository Pattern enforces DRY principles, so happy to learn about something that helps with that. :)
+
 Until next time! Happy Coding!
 
-#merntodotnet #sql #primarykeys #learning
+#merntodotnet #learning
 
 
