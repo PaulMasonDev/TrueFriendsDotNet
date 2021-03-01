@@ -8,7 +8,7 @@ namespace TrueFriendsDotNet.DataAccess.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
-        IFriendRepository Category { get; }
+        IFriendRepository Friend { get; }
         ISP_Call SP_Call { get; }
 
     }

@@ -14,11 +14,11 @@ namespace TrueFriendsDotNet.DataAccess.Repository
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
-            Category = new FriendRepository(_db);
+            Friend = new FriendRepository(_db);
             SP_Call = new SP_Call(_db);
         }
 
-        public IFriendRepository Category { get; private set; }
+        public IFriendRepository Friend { get; private set; }
         public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()
