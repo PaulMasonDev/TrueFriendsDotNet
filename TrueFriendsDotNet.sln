@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31004.235
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueFriendsDotNet", "TrueFriendsDotNet\TrueFriendsDotNet.csproj", "{5B3F8325-7937-4695-81CB-76E5C8606039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueFriendsDotNet.DataAccess", "TrueFriendsDotNet.DataAccess\TrueFriendsDotNet.DataAccess.csproj", "{1599DA31-2326-4AAB-A935-6F5111202C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueFriendsDotNet.DataAccess", "TrueFriendsDotNet.DataAccess\TrueFriendsDotNet.DataAccess.csproj", "{1599DA31-2326-4AAB-A935-6F5111202C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueFriendsDotNet.Models", "TrueFriendsDotNet.Models\TrueFriendsDotNet.Models.csproj", "{51911337-B2AB-42F9-A2D6-7A8614509940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueFriendsDotNet.Models", "TrueFriendsDotNet.Models\TrueFriendsDotNet.Models.csproj", "{51911337-B2AB-42F9-A2D6-7A8614509940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueFriendsDotNet.Utility", "TrueFriendsDotNet.Utility\TrueFriendsDotNet.Utility.csproj", "{41131708-3ECC-4E44-AE4D-38536848E8F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueFriendsDotNet.Utility", "TrueFriendsDotNet.Utility\TrueFriendsDotNet.Utility.csproj", "{41131708-3ECC-4E44-AE4D-38536848E8F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

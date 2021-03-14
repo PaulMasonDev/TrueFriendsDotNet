@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TrueFriendsDotNet.DataAccess.Data;
+using TrueFriendsDotNet.DataAccess.Repository;
+using TrueFriendsDotNet.DataAccess.Repository.IRepository;
 
 namespace TrueFriendsDotNet
 {
@@ -34,7 +36,9 @@ namespace TrueFriendsDotNet
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddControllersWithViews();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

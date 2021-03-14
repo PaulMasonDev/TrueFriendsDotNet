@@ -11,9 +11,12 @@ namespace TrueFriendsDotNet.Models
     {
         [Key]
         public int Id { get; set; }
-        [Display(Name="Friend Name")]
+        [Display(Name="First Name")]
         [Required]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        [Display(Name="Last Name")]
+        [MaxLength(50)]
+        public string LastName { get; set; }
     }
 }

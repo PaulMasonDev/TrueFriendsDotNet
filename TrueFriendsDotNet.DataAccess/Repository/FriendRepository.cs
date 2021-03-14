@@ -23,7 +23,8 @@ namespace TrueFriendsDotNet.DataAccess.Repository
             var objFromDb = _db.Friends.FirstOrDefault(s => s.Id == friend.Id);
             if (objFromDb != null)
             {
-                objFromDb.Name = friend.Name;
+                objFromDb.FirstName = friend.FirstName;
+                objFromDb.LastName = friend.LastName;
                 _db.SaveChanges();
             }
         }

@@ -10,6 +10,7 @@ namespace TrueFriendsDotNet.DataAccess.Repository.IRepository
     {
         IFriendRepository Friend { get; }
         ISP_Call SP_Call { get; }
+        void Save();
 
     }
 }
